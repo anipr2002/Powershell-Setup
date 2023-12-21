@@ -1,6 +1,6 @@
 # STEPS FOR SETTING UP YOUR POWERSHELL
 
-## Requirements
+## Requirements (Follow docs for installation)
 > Powershell (Microsoft Store) <br>
 > Scoop / Winget <br>
 > NerdFonts (https://www.nerdfonts.com/font-downloads) <br>
@@ -15,9 +15,9 @@ Check if Powershell profile file exists:
 echo $PROFILE
 ```
 You should get something like this back
-> C:\Users\aniru\OneDrive\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+> C:\Users\<user-name>\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
 
-If there is not PowerShell folder present inside Documents:
+Confirm it by checking it inside the File Explorer.If there is not PowerShell folder present inside Documents:
 ```
 mkdir PowerShell
 cd PowerShell
