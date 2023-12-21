@@ -5,6 +5,7 @@
 > Scoop / Winget <br>
 > NerdFonts (https://www.nerdfonts.com/font-downloads) <br>
 > oh-my-posh (https://ohmyposh.dev/docs/installation/windows) <br>
+> WSL 
 
 
 **After installing the requirements mentioned above, please change the font in the Powershell settings. Powershell > Appearance**
