@@ -31,11 +31,11 @@ Installing Modules
 
 1. Terminal Icons
    ```
-   Install-Module -Name Terminal-Icons -RequiredVersion 0.9.0
+   Install-Module -Name Terminal-Icons 
    ```
 2. PSReadline
    ```
-   Install-Module -Name PSReadLine -RequiredVersion 2.2.6
+   Install-Module -Name PSReadLine 
    ```
 3. Z (Directory jumper)
    ```
