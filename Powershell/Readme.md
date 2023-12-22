@@ -43,7 +43,8 @@ Installing Modules
    ```
 4. PSFzf (Fuzzy Finder)
    ```
-   Install-Module -Name PSFzf -AllowPrerelease
+   scoop install fzf
+   Install-Module -Name PSFzf -Scope CurrentUser -Force
    ```
 
 ### Oh my posh with terminal icons
