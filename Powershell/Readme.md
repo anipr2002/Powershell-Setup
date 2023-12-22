@@ -1,5 +1,8 @@
 # STEPS FOR SETTING UP YOUR POWERSHELL
 
+## YouTube Link 
+> https://youtu.be/_2uXhSp16O4
+
 ## Requirements (Follow docs for installation)
 > Powershell (Microsoft Store) <br>
 > Scoop / Winget <br>
