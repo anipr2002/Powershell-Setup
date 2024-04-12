@@ -1,3 +1,4 @@
+
 using namespace System.Management.Automation
 using namespace System.Management.Automation.Language
  
@@ -26,7 +27,17 @@ function which ($cmd) {
 }
 
 #TOUCH FUNCTION
-function touch {set-content -Path ($args[0]) -Value ($null)} 
+function touch {
+    foreach ($file in $args) {
+        Set-Content -Path $file -Value $null
+    }
+}
+
+
+#GIT-COMMANDS
+function gs {git status}
+function gd {git diff}
+function gac {git add .;git commit -m @args}
 
 
 #FUZZY FINDER(Fzf)
